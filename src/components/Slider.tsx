@@ -1,11 +1,13 @@
 import React from "react";
 import SliderItem from "./SliderItem";
-type Props = {};
+type Props = {
+  title: string;
+};
 
-const Slider = (props: Props) => {
+const Slider = ({ title }: Props) => {
   return (
-    <div className="w-full px-4 flex flex-col gap-2">
-      <h3 className="font-bold text-xl">Coming This Week</h3>
+    <div className="w-full px-4 flex flex-col gap-3 min-h-[260px]">
+      <h3 className="font-bold text-xl capitalize">{title}</h3>
       <div className="grid grid-cols-5 gap-4 items-start">
         <SliderItem
           img={

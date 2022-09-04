@@ -9,7 +9,7 @@ const Header = (props: Props) => {
     <div className="pl-[50px]">
       <header>
         <Banner />
-        <Slider />
+        <Slider title="Coming this year" />
       </header>
     </div>
   );
