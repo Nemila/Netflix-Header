@@ -7,8 +7,11 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 
 const StyledApp = styled.div`
+  min-height: 100vh;
+
   color: white;
-  background-color: hsl(220, 16%, 5%);
+  background-color: black;
+  /* background-color: hsl(220, 16%, 5%); */
 `;
 
 function App() {
