@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .badge {
+    @apply text-white font-bold rounded-md px-2;
+  }
+  .badge-inverted {
+    @apply text-white font-bold rounded-md px-1 bg-none border-2 border-white;
+  }
+}
