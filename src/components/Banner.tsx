@@ -1,5 +1,4 @@
 import React from "react";
-
 import styled from "styled-components";
 
 const StyledBanner = styled.section`
@@ -15,15 +14,18 @@ const StyledBanner = styled.section`
       rgba(0, 0, 0, 0.5),
       rgba(255, 255, 255, 0)
     ),
-    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FjXU4YYhcY61hbeQWQxxbpTSGCFh.jpg&f=1&nofb=1");
+    url("https://wallpapercave.com/wp/wp1935737.jpg");
 
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 `;
 
-type Props = {};
+type Props = {
+  img: string;
+};
 
-const Banner = (props: Props) => {
+const Banner = ({ img }: Props) => {
   return (
     <StyledBanner className="w-full h-[425px] p-8 pb-0 flex flex-col justify-center ">
       <div className="flex flex-col gap-3 max-w-[600px]">
