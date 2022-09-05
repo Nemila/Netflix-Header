@@ -5,6 +5,7 @@ import styled from "styled-components";
 //components
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Category from "./components/Category";
 
 const StyledApp = styled.div`
   min-height: 100vh;
@@ -17,6 +18,7 @@ function App() {
     <StyledApp>
       <Navbar />
       <Header />
+      <Category />
     </StyledApp>
   );
 }
