@@ -14,7 +14,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <nav className="w-full bg-dark md:w-14 md:h-screen fixed top-0 left-0">
+    <nav className="w-full bg-dark md:w-14 md:h-screen fixed top-0 left-0 z-20">
       <div className="w-full h-full flex md:flex-col justify-center items-center">
         <a href="/" className="nav-item md:navbar-dash">
           <BiSearch />

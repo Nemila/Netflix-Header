@@ -3,9 +3,9 @@ import SliderItem from "./SliderItem";
 
 const Slider = () => {
   return (
-    <div className="w-full px-4 flex flex-col gap-3 h-64">
+    <div className="w-full px-4 flex flex-col gap-3 min-h-64">
       <h3 className="font-bold text-xl capitalize">Coming this year</h3>
-      <div className="grid grid-cols-5 gap-4 items-start">
+      <div className="grid md:grid-cols-5 gap-4 items-start">
         <SliderItem
           img={
             "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.netflix-nederland.nl%2Fwp-content%2Fuploads%2F2018%2F05%2Fs2-13rw-810x456.jpg&f=1&nofb=1"
