@@ -21,8 +21,10 @@ const Banner = () => {
   return (
     <StyledBanner className="bg-cover bg-center w-full h-96 p-4 flex items-center ">
       <div className="flex flex-col gap-3 max-w-[600px]">
-        <h2 className="uppercase text-5xl tracking-widest">13 Reasons why</h2>
-        <div className="flex gap-2 items-center">
+        <h2 className="uppercase text-3xl md:text-5xl tracking-widest">
+          13 Reasons why
+        </h2>
+        <div className="flex gap-2 items-center text-sm md:text-base">
           <span className="text-green-400 font-bold">97% Match</span>
           <span>2018</span>
           <span className="badge badge-filled">TV-MA</span>
@@ -30,8 +32,8 @@ const Banner = () => {
           <span className="badge badge-outline">HD</span>
           <span className="badge badge-outline">5.1</span>
         </div>
-        <p className="font-bold text-xl">Season 3 Coming Friday</p>
-        <p className="opacity-70 text-2xl">
+        <p className="font-bold text-lg md:text-xl">Season 3 Coming Friday</p>
+        <p className="opacity-70 text-lg md:text-xl">
           Months after the Spring Fling, Liberty High is hit with a new shock
           when Bryce Walker is murdered the night of homecoming ... and everyone
           is suspect.
