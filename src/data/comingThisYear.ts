@@ -6,11 +6,12 @@ export const comingThisYear = [
     release: 2018,
     seasons: 2,
     hd: true,
-    tvMa: true,
     announce: "Season 3 coming friday",
     synopsis:
       "Months after the Spring Fling, Liberty High is hit with a new shock when Bryce Walker is murdered the night of homecoming ... and everyone is suspect.",
-    img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.netflix-nederland.nl%2Fwp-content%2Fuploads%2F2018%2F05%2Fs2-13rw-810x456.jpg&f=1&nofb=1",
+    img: "https://www.netflix-nederland.nl/wp-content/uploads/2018/05/s2-13rw-810x456.jpg",
+    banner:
+      "https://image.tmdb.org/t/p/original/jXU4YYhcY61hbeQWQxxbpTSGCFh.jpg",
   },
   {
     id: 1,
@@ -19,11 +20,12 @@ export const comingThisYear = [
     release: 2020,
     seasons: 1,
     hd: true,
-    tvMa: true,
     announce: "Season 2 coming saturday",
     synopsis:
       "Months after the Spring Fling, Liberty High is hit with a new shock when Bryce Walker is murdered the night of homecoming ... and everyone is suspect.",
-    img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdHWWPwXddyQ%2Fmaxresdefault.jpg&f=1&nofb=1",
+    img: "https://i.ytimg.com/vi/dHWWPwXddyQ/maxresdefault.jpg",
+    banner:
+      "https://images.hdqwalls.com/download/hyperdrive-4k-fs-1680x1050.jpg",
   },
   {
     id: 2,
@@ -32,11 +34,12 @@ export const comingThisYear = [
     release: 2015,
     seasons: 3,
     hd: false,
-    tvMa: true,
     announce: "Season 4 coming monday",
     synopsis:
       "Months after the Spring Fling, Liberty High is hit with a new shock when Bryce Walker is murdered the night of homecoming ... and everyone is suspect.",
-    img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.netflix-nederland.nl%2Fwp-content%2Fuploads%2F2020%2F08%2FRust-Valley-Restorers-Netflix-serie.jpg&f=1&nofb=1",
+    img: "https://www.netflix-nederland.nl/wp-content/uploads/2020/08/Rust-Valley-Restorers-Netflix-serie.jpg",
+    banner:
+      "https://socialtelecast.com/wp-content/uploads/2020/08/rust-valley.png",
   },
   {
     id: 3,
@@ -45,11 +48,11 @@ export const comingThisYear = [
     release: 2021,
     seasons: 1,
     hd: true,
-    tvMa: true,
     announce: "Season 2 coming soon",
     synopsis:
       "Months after the Spring Fling, Liberty High is hit with a new shock when Bryce Walker is murdered the night of homecoming ... and everyone is suspect.",
-    img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdonung4k.com%2Fwp-content%2Fuploads%2F2021%2F08%2F%25E0%25B8%25A3%25E0%25B8%25B5%25E0%25B8%25A7%25E0%25B8%25B4%25E0%25B8%25A7%25E0%25B8%258B%25E0%25B8%25B5%25E0%25B8%25A3%25E0%25B8%25B5%25E0%25B8%25A2%25E0%25B9%258C-Squid-Game-2021-%25E0%25B8%25AA%25E0%25B8%2584%25E0%25B8%25A7%25E0%25B8%25B4%25E0%25B8%2594%25E0%25B9%2580%25E0%25B8%2581%25E0%25B8%25A1-%25E0%25B9%2580%25E0%25B8%25A5%25E0%25B9%2588%25E0%25B8%2599%25E0%25B8%25A5%25E0%25B8%25B8%25E0%25B9%2589%25E0%25B8%2599%25E0%25B8%2595%25E0%25B8%25B2%25E0%25B8%25A2.jpg&f=1&nofb=1",
+    img: "https://free4kwallpapers.com/uploads/originals/2021/10/20/squid-game-wallpaper.jpg",
+    banner: "https://wallpaperaccess.com/full/6993436.jpg",
   },
   {
     id: 4,
@@ -58,10 +61,11 @@ export const comingThisYear = [
     release: 2000,
     seasons: 1,
     hd: true,
-    tvMa: true,
     announce: "Season 2 coming thirsday",
     synopsis:
       "Months after the Spring Fling, Liberty High is hit with a new shock when Bryce Walker is murdered the night of homecoming ... and everyone is suspect.",
     img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmr.comingsoon.it%2Fimgdb%2Flocandine%2Fposter%2F46617_hd.jpg&f=1&nofb=1",
+    banner:
+      "https://image.tmdb.org/t/p/original/vUJMZ30G1xdYjUOfQZP6VUvA4jg.jpg",
   },
 ];

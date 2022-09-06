@@ -2,9 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@layer base {
+  body {
+    font-family: "Anek Telugu", sans-serif;
+  }
+}
+
 @layer components {
   .badge {
-    @apply text-white font-bold rounded-md px-2;
+    @apply text-white font-bold rounded-md px-2 font-[Poppins];
   }
   .badge-outline {
     @apply border-2 border-secondary;
@@ -12,7 +20,6 @@
   .badge-filled {
     @apply bg-secondary;
   }
-
   .nav-item {
     @apply relative z-20 w-full h-14 flex justify-center items-center text-2xl hover:bg-primary transition-all;
   }
