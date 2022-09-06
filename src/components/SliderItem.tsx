@@ -1,11 +1,24 @@
 import React, { useState } from "react";
 import { TbBell, TbCheck } from "react-icons/tb";
 
-type Props = {
+type Movie = {
+  id: number;
+  title: string;
+  match: number;
+  release: number;
+  seasons: number;
+  hd: boolean;
+  tvMa: boolean;
+  announce: string;
+  synopsis: string;
   img: string;
 };
 
-const SliderItem = ({ img }: Props) => {
+type Props = {
+  item: Movie;
+};
+
+const SliderItem = ({ item }: Props) => {
   const [reminder, setReminder] = useState(false);
 
   const handleReminder = (e: any) => {
@@ -17,7 +30,7 @@ const SliderItem = ({ img }: Props) => {
     <div className="hover:p-1 hover:bg-white text-dark group transition-all flex flex-col justify-center items-center cursor-pointer">
       <div className="overflow-hidden">
         <img
-          src={img}
+          src={item.img}
           alt="13 reasons why"
           className="w-full h-full object-cover object-center"
         />
