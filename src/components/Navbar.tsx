@@ -13,30 +13,7 @@ import {
 } from "react-icons/bi";
 
 const NavLink = styled.a<{ active?: boolean }>`
-  position: relative;
-  z-index: 20;
-
-  width: 100%;
-  height: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-size: 1.25rem /* 20px */;
-  line-height: 1.75rem /* 28px */;
-
   &::before {
-    content: "";
-
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    height: 50px;
-    width: calc(80px * 0.05);
-
-    background-color: red;
     border-radius: 4em;
     opacity: ${({ active }) => (active ? "1" : "0")};
   }
@@ -50,24 +27,24 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <nav className="bg-dark w-[50px] h-screen fixed top-0 left-0">
+    <nav className="bg-dark w-14 h-screen fixed top-0 left-0">
       <div className="w-full h-full flex flex-col justify-center items-center">
-        <NavLink href="/" data-title="search">
+        <NavLink href="/" className="nav-item navbar-dash">
           <BiSearch />
         </NavLink>
-        <NavLink href="/" active={true} data-title="home">
+        <NavLink href="/" className="nav-item navbar-dash" active={true}>
           <BiHome />
         </NavLink>
-        <NavLink href="/" data-title="calendar">
+        <NavLink href="/" className="nav-item navbar-dash">
           <BiCalendar />
         </NavLink>
-        <NavLink href="/" data-title="shows">
+        <NavLink href="/" className="nav-item navbar-dash">
           <BiTv />
         </NavLink>
-        <NavLink href="/" data-title="movies">
+        <NavLink href="/" className="nav-item navbar-dash">
           <BiMovie />
         </NavLink>
-        <NavLink href="/" data-title="add more">
+        <NavLink href="/" className="nav-item navbar-dash">
           <BiPlus />
         </NavLink>
       </div>
