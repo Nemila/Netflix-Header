@@ -6,7 +6,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="pl-[50px]">
+    <div className="pt-14 md:pl-14 md:pt-0">
       <header>
         <Banner />
         <Slider />

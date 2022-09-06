@@ -19,7 +19,7 @@ const StyledBanner = styled.section`
 
 const Banner = () => {
   return (
-    <StyledBanner className="bg-cover bg-center w-full h-[425px] p-8 pb-0 flex flex-col justify-center ">
+    <StyledBanner className="bg-cover bg-center w-full h-96 p-4 flex items-center ">
       <div className="flex flex-col gap-3 max-w-[600px]">
         <h2 className="uppercase text-5xl tracking-widest">13 Reasons why</h2>
         <div className="flex gap-2 items-center">
