@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
-import Slider from "./Slider";
+import Carousel from "./Carousel";
 
 type Props = {};
 
@@ -9,7 +9,7 @@ const Header = (props: Props) => {
     <div className="pt-14 pb-4 md:pl-14 md:pt-0">
       <header>
         <Banner />
-        <Slider />
+        <Carousel />
       </header>
     </div>
   );
