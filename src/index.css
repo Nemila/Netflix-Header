@@ -13,9 +13,9 @@
     @apply bg-secondary;
   }
   .navbar-dash {
-    @apply before:content-[''] before:absolute before:left-0 before:h-14 before:w-[.15em] before:bg-primary;
+    @apply before:content-[''] before:absolute before:left-0 before:h-14 before:w-[.15em] before:bg-primary rounded-lg;
   }
   .nav-item {
-    @apply relative z-20 w-full h-14 flex justify-center items-center text-2xl navbar-dash;
+    @apply relative z-20 w-full h-14 flex justify-center items-center text-2xl hover:bg-primary;
   }
 }

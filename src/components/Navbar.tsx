@@ -14,7 +14,6 @@ import {
 
 const NavLink = styled.a<{ active?: boolean }>`
   &::before {
-    border-radius: 4em;
     opacity: ${({ active }) => (active ? "1" : "0")};
   }
 
@@ -27,24 +26,24 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <nav className="bg-dark w-14 h-screen fixed top-0 left-0">
-      <div className="w-full h-full flex flex-col justify-center items-center">
-        <NavLink href="/" className="nav-item navbar-dash">
+    <nav className="w-full bg-dark md:w-14 md:h-screen fixed top-0 left-0">
+      <div className="w-full h-full flex md:flex-col justify-center items-center">
+        <NavLink href="/" className="nav-item md:navbar-dash">
           <BiSearch />
         </NavLink>
-        <NavLink href="/" className="nav-item navbar-dash" active={true}>
+        <NavLink href="/" className="nav-item md:navbar-dash" active={true}>
           <BiHome />
         </NavLink>
-        <NavLink href="/" className="nav-item navbar-dash">
+        <NavLink href="/" className="nav-item md:navbar-dash">
           <BiCalendar />
         </NavLink>
-        <NavLink href="/" className="nav-item navbar-dash">
+        <NavLink href="/" className="nav-item md:navbar-dash">
           <BiTv />
         </NavLink>
-        <NavLink href="/" className="nav-item navbar-dash">
+        <NavLink href="/" className="nav-item md:navbar-dash">
           <BiMovie />
         </NavLink>
-        <NavLink href="/" className="nav-item navbar-dash">
+        <NavLink href="/" className="nav-item md:navbar-dash">
           <BiPlus />
         </NavLink>
       </div>
